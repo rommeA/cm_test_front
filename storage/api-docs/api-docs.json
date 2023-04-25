@@ -1,0 +1,464 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "CrewMaster4  ApplicationAPI",
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/api/users": {
+            "get": {
+                "tags": [
+                    "user"
+                ],
+                "summary": "List",
+                "description": "Lists all users",
+                "operationId": "usersList",
+                "parameters": [
+                    {
+                        "name": "perPage",
+                        "in": "query",
+                        "description": "Items per page",
+                        "required": false,
+                        "schema": {
+                            "type": "integer"
+                        },
+                        "example": "15"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "users": {
+                                            "type": "array",
+                                            "items": {
+                                                "properties": {
+                                                    "user": {
+                                                        "$ref": "#/components/schemas/User"
+                                                    }
+                                                },
+                                                "type": "object"
+                                            }
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "post": {
+                "tags": [
+                    "user"
+                ],
+                "summary": "Create",
+                "description": "Create user",
+                "operationId": "createUser",
+                "requestBody": {
+                    "content": {
+                        "multipart/form-data": {
+                            "schema": {
+                                "required": [
+                                    "email",
+                                    "password"
+                                ],
+                                "properties": {
+                                    "email": {
+                                        "type": "string",
+                                        "format": "email",
+                                        "example": "user1@mail.com"
+                                    },
+                                    "firstname": {
+                                        "type": "string",
+                                        "maxLength": 32,
+                                        "example": "John"
+                                    },
+                                    "lastname": {
+                                        "type": "string",
+                                        "maxLength": 32,
+                                        "example": "John"
+                                    },
+                                    "password": {
+                                        "type": "string",
+                                        "format": "password",
+                                        "example": "PassWord12345"
+                                    },
+                                    "is_seaman": {
+                                        "type": "boolean",
+                                        "example": "1"
+                                    },
+                                    "is_office_employee": {
+                                        "type": "boolean",
+                                        "example": "0"
+                                    },
+                                    "position": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "message": {
+                                            "type": "string",
+                                            "example": "Success"
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/users/{user}": {
+            "get": {
+                "tags": [
+                    "user"
+                ],
+                "summary": "Show",
+                "description": "Get user by slug or id",
+                "operationId": "usersShow",
+                "parameters": [
+                    {
+                        "name": "user",
+                        "in": "path",
+                        "description": "User slug or id",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        },
+                        "example": "john_doe"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            },
+            "put": {
+                "tags": [
+                    "user"
+                ],
+                "summary": "Update",
+                "description": "Update user",
+                "operationId": "usersUpdate",
+                "parameters": [
+                    {
+                        "name": "user",
+                        "in": "path",
+                        "description": "Update user",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        },
+                        "example": "john_doe"
+                    }
+                ],
+                "requestBody": {
+                    "content": {
+                        "application/x-www-form-urlencoded": {
+                            "schema": {
+                                "properties": {
+                                    "email": {
+                                        "type": "string",
+                                        "format": "email",
+                                        "example": "user1@mail.com"
+                                    },
+                                    "firstname": {
+                                        "type": "string",
+                                        "maxLength": 32,
+                                        "example": "John"
+                                    },
+                                    "lastname": {
+                                        "type": "string",
+                                        "maxLength": 32,
+                                        "example": "John"
+                                    },
+                                    "password": {
+                                        "type": "string",
+                                        "format": "password",
+                                        "example": "PassWord12345"
+                                    },
+                                    "is_seaman": {
+                                        "type": "boolean",
+                                        "example": "1"
+                                    },
+                                    "is_office_employee": {
+                                        "type": "boolean",
+                                        "example": "0"
+                                    },
+                                    "position": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            },
+            "delete": {
+                "tags": [
+                    "user"
+                ],
+                "summary": "Delete",
+                "description": "Delete user",
+                "operationId": "usersDelete",
+                "parameters": [
+                    {
+                        "name": "user",
+                        "in": "path",
+                        "description": "Delete user",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        },
+                        "example": "john_doe"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        },
+        "/login": {
+            "post": {
+                "tags": [
+                    "auth"
+                ],
+                "summary": "Sign in",
+                "description": "Login by email, password",
+                "operationId": "authLogin",
+                "requestBody": {
+                    "description": "Pass user credentials",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "email",
+                                    "password"
+                                ],
+                                "properties": {
+                                    "email": {
+                                        "type": "string",
+                                        "format": "email",
+                                        "example": "user1@mail.com"
+                                    },
+                                    "password": {
+                                        "type": "string",
+                                        "format": "password",
+                                        "example": "PassWord12345"
+                                    },
+                                    "persistent": {
+                                        "type": "boolean",
+                                        "example": "true"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "422": {
+                        "description": "Wrong credentials response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "message": {
+                                            "type": "string",
+                                            "example": "Sorry, wrong email address or password. Please try again"
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "ResourceLinks": {
+                "properties": {
+                    "first": {
+                        "description": "First page link",
+                        "type": "string"
+                    },
+                    "last": {
+                        "description": "Last page link",
+                        "type": "string"
+                    },
+                    "prev": {
+                        "description": "Previous page link",
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "next": {
+                        "description": "Next page link",
+                        "type": "string",
+                        "nullable": true
+                    }
+                },
+                "type": "object"
+            },
+            "ResourceMeta": {
+                "properties": {
+                    "current_page": {
+                        "description": "Current page number",
+                        "type": "integer"
+                    },
+                    "from": {
+                        "description": "Number of first item from current page",
+                        "type": "integer"
+                    },
+                    "last_page": {
+                        "description": "Last page number",
+                        "type": "integer"
+                    },
+                    "links": {
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/ResourceMetaLinks"
+                        }
+                    },
+                    "path": {
+                        "description": "Base URL",
+                        "type": "string"
+                    },
+                    "per_page": {
+                        "description": "Number of item per page",
+                        "type": "integer"
+                    },
+                    "to": {
+                        "description": "Number of last item from current page",
+                        "type": "integer"
+                    },
+                    "total": {
+                        "description": "Total count of all items",
+                        "type": "integer"
+                    }
+                },
+                "type": "object"
+            },
+            "ResourceMetaLinks": {
+                "properties": {
+                    "url": {
+                        "description": "Page link",
+                        "type": "string"
+                    },
+                    "label": {
+                        "description": "Page label",
+                        "type": "string"
+                    },
+                    "active": {
+                        "description": "Current page flag",
+                        "type": "boolean"
+                    }
+                },
+                "type": "object"
+            },
+            "User": {
+                "required": [
+                    "password"
+                ],
+                "properties": {
+                    "id": {
+                        "type": "integer",
+                        "readOnly": "true",
+                        "example": "1"
+                    },
+                    "email": {
+                        "description": "User unique email address",
+                        "type": "string",
+                        "format": "email",
+                        "readOnly": "true",
+                        "example": "user@gmail.com"
+                    },
+                    "email_verified_at": {
+                        "description": "Datetime marker of verification status",
+                        "type": "string",
+                        "format": "date-time",
+                        "readOnly": "true",
+                        "example": "2019-02-25 12:59:20"
+                    },
+                    "firstname": {
+                        "type": "string",
+                        "maxLength": 32,
+                        "example": "John"
+                    },
+                    "lastname": {
+                        "type": "string",
+                        "maxLength": 32,
+                        "example": "John"
+                    },
+                    "created_at": {
+                        "description": "Initial creation timestamp",
+                        "type": "string",
+                        "format": "date-time",
+                        "readOnly": "true"
+                    },
+                    "updated_at": {
+                        "description": "Last update timestamp",
+                        "type": "string",
+                        "format": "date-time",
+                        "readOnly": "true"
+                    },
+                    "deleted_at": {
+                        "description": "Soft delete timestamp",
+                        "type": "string",
+                        "format": "date-time",
+                        "readOnly": "true"
+                    }
+                },
+                "type": "object",
+                "xml": {
+                    "name": "User"
+                }
+            }
+        },
+        "responses": {
+            "200": {
+                "description": "Success",
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "properties": {
+                                "user": {
+                                    "$ref": "#/components/schemas/User"
+                                }
+                            },
+                            "type": "object"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

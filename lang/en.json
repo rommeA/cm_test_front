@@ -1,0 +1,44 @@
+{
+    "The :attribute must contain at least one letter.": "The :attribute must contain at least one letter.",
+    "The :attribute must contain at least one number.": "The :attribute must contain at least one number.",
+    "The :attribute must contain at least one symbol.": "The :attribute must contain at least one symbol.",
+    "The :attribute must contain at least one uppercase and one lowercase letter.": "The :attribute must contain at least one uppercase and one lowercase letter.",
+    "The given :attribute has appeared in a data leak. Please choose a different :attribute.": "The given :attribute has appeared in a data leak. Please choose a different :attribute.",
+
+    "Logout": "Logout",
+    "Login": "Login",
+    "Register": "Register",
+    "Welcome, :Username!": "Welcome, :Username!",
+
+    "Users": "User|User",
+    "Roles": "Role|Roles",
+    "Permissions": "Permission|Permissions",
+    "Authentication": "Authentication",
+    "Authentication logs": "Authentication logs",
+    "Vessels": "Vessel|Vessels",
+    "Companies": "Company|Companies",
+    "Logs": "Logs",
+    "Queues": "Queue|Queues",
+    "Translations": "Translation|Translations",
+    "Queued jobs": "Queued job|Queued jobs",
+    "Failed jobs": "Failed job|Failed jobs",
+    "SMTP-servers": "SMTP-server|SMTP-servers",
+    "SMTP-event bindings": "SMTP-event binding|SMTP-event bindings",
+    "Default SMTP server": "Default SMTP server",
+    "Emails log": "Emails log",
+    "Emails & SMTP": "Emails & SMTP",
+
+    "Sign out from MS Office": "Sign out from MS Office",
+    "Sign in to MS Office": "Sign in to MS Office",
+
+    "company.Active" : "Active",
+    "company.Liquidated": "Liquidated",
+    "company.Archive": "Archive",
+    "company.Unwanted contractor": "Unwanted contractor",
+
+    "Departments": "Department|Departments",
+    "Offices": "Office|Offices",
+    "Employees": "Employee|Employees",
+    "OGRN": "PSRN (ОГРН)"
+
+}

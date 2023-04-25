@@ -1,0 +1,1540 @@
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+PHP Warning:  include(/var/www/html/vendor/composer/../../app/Models/DocumentType.php): Failed to open stream: No such file or directory in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Warning:  include(): Failed opening '/var/www/html/vendor/composer/../../app/Models/DocumentType.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/vendor/composer/ClassLoader.php on line 578
+PHP Fatal error:  Uncaught ReflectionException: Class "auth" does not exist in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#7 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#12 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#13 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [auth] does not exist. in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#1 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\Container\Container->resolve()
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\Container\Container->make()
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(161): app()
+#6 /var/www/html/app/Exceptions/Handler.php(32): auth()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(312): App\Exceptions\Handler->context()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(271): Illuminate\Foundation\Exceptions\Handler->buildExceptionContext()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\Foundation\Exceptions\Handler->report()
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\Foundation\Console\Kernel->reportException()
+#11 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle()
+#12 {main}
+  thrown in /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
